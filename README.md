@@ -5,22 +5,26 @@
 
 ### newcropbox
 - Type:`Function`  
-- Default:`null`  
+- Default:`null` 
+
 A callback function of event `newcropbox`  
 
 ### cropboxchange
 - Type:`Function`   
-- Default:`null`   
+- Default:`null`
+
 A callback function of event `cropboxchange`  
 
 ### destroycropbox
 - Type:`Function`   
-- Default:`null`   
+- Default:`null`
+
 A callback function of event `destroycropbox`  
 
 ### cropboxchange
 - Type:`Function`   
-- Default:`null`   
+- Default:`null`
+
 A callback function of event `cropboxchange`  
 
 ### renderCropBox
@@ -35,38 +39,43 @@ A callback function of event `cropboxchange`
   - params:   
     - type: `Object`  
   the params props of this component  
-- Default:`null`   
+- Default:`null`
+
 A custom function to render cropbox data info  
 
 ### params
-  -Type: `Object`  
-  -Default: `null`  
+- Type: `Object`  
+- Default: `null`
+
 A params provided by user for custom function  
 
 
 ## Methods
 
-### destroyCropBoxByIndex  
-- Params: 
-  - index: 
-    - type: `int`  
-  index of the cropbox to be destroy     
-Destroy the cropbox in cropboxs array by its index
+### destroyCropBoxByIndex   
+- index:  
+  - type: `int`  
+    index of the cropbox to be destroy
+  
+Destroy the cropbox in cropboxs array by its index  
 
 ### activeCropBoxByIndex  
-- Params: 
-  - index: 
-    - type: `int`  
-  index of the cropbox to be active     
-Active the cropbox in cropboxs array by its index
+  - Params: 
+  - index:  
+    - type: `int`    
+    index of the cropbox to be active       
+
+Active the cropbox in cropboxs array by its index  
 
 ### createCropBox  
 - Params: no params     
+
 Active the cropbox in cropboxs array by its index   
 
 ### setNowCropperBoxData
 - Params: 
   - data: 
     - type:`Object of cropboxdata`          
+
 Set the cropboxdata of actived cropbox
 
