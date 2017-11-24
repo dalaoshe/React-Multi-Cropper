@@ -1,5 +1,11 @@
 # React-Multi-Cropper
 
+## Feature
+
+## Main
+
+## Getting Start 4
+
 
 ## Props
 
@@ -56,7 +62,7 @@ A params provided by user for custom function
 - index:  
   - type: `int`  
     index of the cropbox to be destroy
-  
+    
 Destroy the cropbox in cropboxs array by its index  
 
 ### activeCropBoxByIndex  
