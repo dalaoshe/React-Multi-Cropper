@@ -1,10 +1,69 @@
 # React-Multi-Cropper
 
+
+
 ## Feature
 
-## Main
+## Require
+-- `node` >= v8.0 [install by git hub](https://github.com/nodejs/node/blob/master/BUILDING.md)  
+-- `creat-react-app` >= 1.4.0  
 
-## Getting Start 4
+## Main
+```text
+├── cropper.js
+└── src
+    ├── css
+    │   └── cropper.css
+    ├── images
+    │   └── bg.png
+    └── js
+        ├── change.js
+        ├── cropper.js
+        ├── defaults.js
+        ├── events.js
+        ├── handlers.js
+        ├── methods.js
+        ├── preview.js
+        ├── render.js
+        ├── template.js
+        └── utilities.js
+
+```
+## Getting Start
+### Install
+Install `Node` and `npm` first, then execute follow command to install `create-react-app`
+```
+npm install create-react-app -g
+```
+### Quick Example
+Creat a new react app by follow commad:
+```
+create-react-app multi-cropper-app
+```
+Then you will get a dir as follow:
+```
+├── node_modules
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── README.md
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    └── registerServiceWorker.js
+```
+Then use our `index.js` replace the index.js in `src`, copy our `multi-cropper` dir to `src`, run:
+```
+npm start
+```
+
 
 
 ## Props
