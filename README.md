@@ -50,14 +50,14 @@ A params provided by user for custom function
 - Params: 
   - index: 
     - type: `int`  
-  index of the cropbox to be destroy    
+  index of the cropbox to be destroy     
 Destroy the cropbox in cropboxs array by its index
 
 ### activeCropBoxByIndex  
 - Params: 
   - index: 
     - type: `int`  
-  index of the cropbox to be active    
+  index of the cropbox to be active     
 Active the cropbox in cropboxs array by its index
 
 ### createCropBox  
@@ -67,6 +67,6 @@ Active the cropbox in cropboxs array by its index
 ### setNowCropperBoxData
 - Params: 
   - data: 
-    - type: `Object of cropboxdata`        
+    - type:`Object of cropboxdata`          
 Set the cropboxdata of actived cropbox
 
