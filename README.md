@@ -53,7 +53,7 @@ npm start
 ```
 
 ### Demo
-
+![Demo picture](https://github.com/dalaoshe/React-Multi-Cropper/blob/master/demo.gif)
 
 ## Support React Props
 
