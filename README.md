@@ -96,7 +96,7 @@ A custom function to render cropbox data info
 A params provided by user for custom function  
 
 
-## Methods
+## Support Methods
 
 ### destroyCropBoxByIndex   
 - index:  
@@ -125,7 +125,7 @@ Active the cropbox in cropboxs array by its index
 
 Set the cropboxdata of actived cropbox
 
-## Develop
+##For Developer
 ### Source Code
 ```text
 ├── cropper.js
