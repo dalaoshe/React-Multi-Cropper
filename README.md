@@ -5,9 +5,9 @@
 ## Feature
 
 ## Require
--- `node` >= v8.0 [install by git hub](https://github.com/nodejs/node/blob/master/BUILDING.md)  
--- `creat-react-app` >= 1.4.0  
--- `npm` >= 5.0
+- `node` >= v8.0 [install by git hub](https://github.com/nodejs/node/blob/master/BUILDING.md)  
+- `creat-react-app` >= 1.4.0  
+- `npm` >= 5.0
 
 
 ## Getting Start
