@@ -57,25 +57,25 @@ npm start
 
 ## Support React Props
 
+### buildover
+- Type:`Function`   
+- Default:`null`
+- Desc: A callback function of event `buildover`, happen when the cropper built and ready for create cropbox  
+
 ### newcropbox
 - Type:`Function`  
 - Default:`null` 
 - Desc: A callback function of event `newcropbox`, happen when a cropbox has been created     
-
-### cropboxchange
-- Type:`Function`   
-- Default:`null`
-- Desc: A callback function of event `cropboxchange`, happen when the actived cropbox changed    
 
 ### destroycropbox
 - Type:`Function`   
 - Default:`null`
 - Desc: A callback function of event `destroycropbox`, happen when a cropbox has been destroyed  
 
-### buildover
+### cropboxchange
 - Type:`Function`   
 - Default:`null`
-- Desc: A callback function of event `buildover`, happen when the cropper built and ready for create cropbox    
+- Desc: A callback function of event `cropboxchange`, happen when the actived cropbox changed      
 
 ### renderCropBox
 - Type:`Function`  
@@ -100,6 +100,9 @@ npm start
 
 ## Support Methods
 
+### createCropBox       
+- Desc: Create a new cropbox
+
 ### destroyCropBoxByIndex   
 - Params:
   - index:  
@@ -114,15 +117,12 @@ npm start
     - desc:index of the cropbox to be active       
 - Desc: Active the cropbox in cropboxs array by its index  
 
-### createCropBox       
-- Desc: Active the cropbox in cropboxs array by its index   
-
 ### setNowCropperBoxData
 - Params: 
   - data: 
     - type:`Object of cropboxdata`          
     - desc:position data array to set  
-- Desc: Set the cropboxdata of actived cropbox
+- Desc: Set the cropboxdata of now actived cropbox
 
 ##For Developer
 ### Source Code
