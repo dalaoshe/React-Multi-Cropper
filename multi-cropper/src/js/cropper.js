@@ -121,19 +121,19 @@ class Cropper {
       } else {
         self.clone();
       }
-	  console.log("REGEXP");
+	 // console.log("REGEXP");
       return;
     }
 
     const xhr = new XMLHttpRequest();
 
     xhr.onerror = xhr.onabort = () => {
-		console.log("xhr error");
+	//	console.log("xhr error");
 		self.clone();
     };
 
     xhr.onload = () => {
-		console.log("xhr onload");
+	//	console.log("xhr onload");
       self.read(xhr.response);
     };
 
@@ -210,7 +210,7 @@ class Cropper {
       imageData.scaleX = scaleX;
       imageData.scaleY = scaleY;
     }
-	console.log('read');
+//	console.log('read');
     self.clone();
   }
 
@@ -348,7 +348,7 @@ class Cropper {
 	}
 	self.faces = faces;
 	if(cropBoxs.length > 0) {
-		console.log("has init cropBox");
+	//	console.log("has init cropBox");
 		self.cropBoxStates[0] = 1;
 	}
 //over
@@ -442,7 +442,7 @@ class Cropper {
 	  //dalaoshe modification
 	  $.addClass(dragBox, 'cropper-modal');
 	  $.dispatchEvent(self.cropper, 'buildover', {});
-     console.log('build over'); 
+    // console.log('build over'); 
 	  if(self.options.autoCrop) {
 		 self.cropped = options.autoCrop;
 		 self.createNewCropperBox();
