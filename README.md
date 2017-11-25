@@ -47,7 +47,7 @@ npm start
 Either, you can run build.sh to create the demo app
 ```
 ./build.sh
-cp ~/multi-react-cropper
+cd ~/multi-react-cropper
 npm start
 ```
 
