@@ -44,6 +44,13 @@ Then use our `index.js` replace the index.js in `src`, copy our `multi-cropper` 
 ```
 npm start
 ```
+Either, you can run build.sh to create the demo app
+```
+./build.sh
+cp ~/multi-react-cropper
+npm start
+```
+
 ### Demo
 
 
