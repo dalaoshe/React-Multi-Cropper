@@ -44,7 +44,8 @@ Then use our `index.js` replace the index.js in `src`, copy our `multi-cropper` 
 ```
 npm start
 ```
-Either, you can run build.sh to create the demo app
+
+Either, you can run our build.sh to create the demo app
 ```
 ./build.sh
 cd ~/multi-react-cropper
@@ -59,78 +60,69 @@ npm start
 ### newcropbox
 - Type:`Function`  
 - Default:`null` 
-
-A callback function of event `newcropbox`  
+- Desc: A callback function of event `newcropbox`, happen when a cropbox has been created     
 
 ### cropboxchange
 - Type:`Function`   
 - Default:`null`
-
-A callback function of event `cropboxchange`  
+- Desc: A callback function of event `cropboxchange`, happen when the actived cropbox changed    
 
 ### destroycropbox
 - Type:`Function`   
 - Default:`null`
+- Desc: A callback function of event `destroycropbox`, happen when a cropbox has been destroyed  
 
-A callback function of event `destroycropbox`  
-
-### cropboxchange
+### buildover
 - Type:`Function`   
 - Default:`null`
-
-A callback function of event `cropboxchange`  
+- Desc: A callback function of event `buildover`, happen when the cropper built and ready for create cropbox    
 
 ### renderCropBox
 - Type:`Function`  
 - Params: 
   - datas: 
     - type: `Array of cropboxdata object`  
-  array of all cropboxdatas   
+    - desc: array of all cropboxdatas   
   - images:  
     - type: `Array of cropbox dom`  
-  array of all cropboxs preview dom  
+    - desc: array of all cropboxs preview dom  
   - params:   
     - type: `Object`  
-  the params props of this component  
+    - desc: the params props of this component  
 - Default:`null`
-
-A custom function to render cropbox data info  
+- Desc: A custom function to render cropbox data info  
 
 ### params
 - Type: `Object`  
 - Default: `null`
-
-A params provided by user for custom function  
+- Desc: A params provided by you for renderCropbox function  
 
 
 ## Support Methods
 
 ### destroyCropBoxByIndex   
-- index:  
-  - type: `int`  
-    index of the cropbox to be destroy
-    
-Destroy the cropbox in cropboxs array by its index  
+- Params:
+  - index:  
+    - type: `int`  
+    - desc: index of the cropbox to be destroy   
+- Desc: Destroy the cropbox in cropboxs array by its index  
 
 ### activeCropBoxByIndex  
-  - Params: 
+- Params: 
   - index:  
     - type: `int`    
-    index of the cropbox to be active       
+    - desc:index of the cropbox to be active       
+- Desc: Active the cropbox in cropboxs array by its index  
 
-Active the cropbox in cropboxs array by its index  
-
-### createCropBox  
-- Params: no params     
-
-Active the cropbox in cropboxs array by its index   
+### createCropBox       
+- Desc: Active the cropbox in cropboxs array by its index   
 
 ### setNowCropperBoxData
 - Params: 
   - data: 
     - type:`Object of cropboxdata`          
-
-Set the cropboxdata of actived cropbox
+    - desc:position data array to set  
+- Desc: Set the cropboxdata of actived cropbox
 
 ##For Developer
 ### Source Code
