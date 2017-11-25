@@ -138,7 +138,7 @@ export default {
     }) === false) {
       return;
     }
-	console.log('crop start');
+	//console.log('crop start');
     e.preventDefault();
     self.action = action;
     self.cropping = false;
@@ -150,7 +150,7 @@ export default {
   },
 
   cropMove(event) {
-	console.log('move');
+	//console.log('move');
     const self = this;
     const action = self.action;
     if (self.disabled || !action) {
@@ -277,8 +277,8 @@ export default {
 	//console.log('on mouse down');
 	let e = $.getEvent(event);
 	let dbCropBox = e.target;
-	console.log(dbCropBox);
-	console.log(dbCropBox);
+	//console.log(dbCropBox);
+	//console.log(dbCropBox);
 	let cropBoxClassName = 'cropper-face';
 	if(dbCropBox.getAttribute('class').toString().indexOf(cropBoxClassName) !== -1) {
 		let cropper = dbCropBox.parentNode; 

@@ -75,15 +75,16 @@ class CropBoxDatasInfo extends Component {
 		this.cropper = nextProps.cropper;
 	}
 	render() {
+		if(this.props.renderCropBox == null) return (<div></div>);
 		return(	
 			<div >
 				{   		
-//					this.props.renderCropBox(
-//					this.cropper != null && this.cropper.cropped ?
-//					this.getCropBoxDatas():null,
-//					this.cropper != null && this.cropper.cropped ?
-//					this.getPreviewBlocks():null,
-//					this.props.params)
+					this.props.renderCropBox(
+					this.cropper != null && this.cropper.cropped ?
+					this.getCropBoxDatas():null,
+					this.cropper != null && this.cropper.cropped ?
+					this.getPreviewBlocks():null,
+					this.props.params)
 				}
 			</div>);
 	}
