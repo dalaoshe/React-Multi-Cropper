@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Cropper from './cropperjs/cropper';
+import Cropper from './multi-cropper/cropper';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
