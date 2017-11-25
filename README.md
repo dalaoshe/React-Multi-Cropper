@@ -7,28 +7,9 @@
 ## Require
 -- `node` >= v8.0 [install by git hub](https://github.com/nodejs/node/blob/master/BUILDING.md)  
 -- `creat-react-app` >= 1.4.0  
+-- `npm` >= 5.0
 
-## Main
-```text
-├── cropper.js
-└── src
-    ├── css
-    │   └── cropper.css
-    ├── images
-    │   └── bg.png
-    └── js
-        ├── change.js
-        ├── cropper.js
-        ├── defaults.js
-        ├── events.js
-        ├── handlers.js
-        ├── methods.js
-        ├── preview.js
-        ├── render.js
-        ├── template.js
-        └── utilities.js
 
-```
 ## Getting Start
 ### Install
 Install `Node` and `npm` first, then execute follow command to install `create-react-app`
@@ -63,10 +44,10 @@ Then use our `index.js` replace the index.js in `src`, copy our `multi-cropper` 
 ```
 npm start
 ```
+### Demo
 
 
-
-## Props
+## Support React Props
 
 ### newcropbox
 - Type:`Function`  
@@ -144,3 +125,25 @@ Active the cropbox in cropboxs array by its index
 
 Set the cropboxdata of actived cropbox
 
+## Develop
+### Source Code
+```text
+├── cropper.js
+└── src
+    ├── css
+    │   └── cropper.css
+    ├── images
+    │   └── bg.png
+    └── js
+        ├── change.js
+        ├── cropper.js
+        ├── defaults.js
+        ├── events.js
+        ├── handlers.js
+        ├── methods.js
+        ├── preview.js
+        ├── render.js
+        ├── template.js
+        └── utilities.js
+
+```
