@@ -124,7 +124,8 @@ npm start
     - desc:position data array to set  
 - Desc: Set the cropboxdata of now actived cropbox
 
-##For Developer
+## For Developer
+
 ### Source Code
 ```text
 ├── cropper.js
